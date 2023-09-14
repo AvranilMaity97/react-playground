@@ -1,0 +1,13 @@
+.header{
+    width: 100%;
+    background-color: white;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    font-size: 30px;
+    font-weight:600;
+}
