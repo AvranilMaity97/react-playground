@@ -1,0 +1,22 @@
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 4px;
+  font-size: 20px;
+  color: #2f3542;
+  border-bottom: 2px solid #dfe4ea;
+}
+.transaction-item:last-child {
+  border-bottom: none;
+}
+.income {
+  color: green;
+}
+.expense {
+  color: red;
+}
+.date {
+  font-style: italic;
+  font-size: 15px;
+}
