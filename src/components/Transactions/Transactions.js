@@ -1,5 +1,7 @@
 import TransactionItem from "../TransactionItem/TransactionItem";
 
+import "./Transactions.css";
+
 const Transactions = () => {
   const transactions = [
     {
