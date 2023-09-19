@@ -1,7 +1,6 @@
 .transaction-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr;
   padding: 8px 4px;
   font-size: 20px;
   color: #2f3542;
@@ -11,12 +10,39 @@
   border-bottom: none;
 }
 .income {
+  text-align: end;
   color: green;
 }
 .expense {
+  text-align: end;
   color: red;
 }
 .date {
   font-style: italic;
   font-size: 15px;
+}
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.action-wrapper {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.action-wrapper:hover {
+  background-color: #f6f6f6;
+}
+.action-wrapper:last-child {
+  margin-right: 0px;
+}
+img {
+  width: 20px;
+  height: 20px;
 }
